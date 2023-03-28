@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "semi": "error",
+    "semi-style": [
+      "error",
+      "last"
+    ],
+    "quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  },
+  "plugins": [
+    "tailwindcss"
+  ]
+}
